@@ -1,6 +1,6 @@
-<% if (theme.donation.show) { %>
-  <div class="text-center donation">
-    <div class="inner-donation">
+<div class="text-center donation">
+  <div class="inner-donation" style="height:40px;">
+    <% if (theme.donation.show) { %>
       <span class="btn-donation"><%= theme.donation.btn_text %></span>
       <div class="donation-body">
         <div class="tip text-center"><%= theme.donation.tip %></div>
@@ -12,6 +12,6 @@
         <% }) %>
         </ul>
       </div>
-    </div>
+    <% } %>
   </div>
-<% } %>
+</div>

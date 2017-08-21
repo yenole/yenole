@@ -78,16 +78,16 @@ backtop:
   about: false
 
 donation:
-  show: true
+  show: false
   btn_text: 支持
   tip: 扫一扫，支持一下
   items:
     - type: 微信
       text: 微信扫一扫
-      imgUrl: /images/qr-wechat.png
+      imgUrl: /images/qr-wechat.jpg
     - type: 支付宝
       text: 支付宝扫一扫
-      imgUrl: /images/qr-alipay.png
+      imgUrl: /images/qr-alipay.jpg
 
 
 
@@ -107,7 +107,7 @@ post:
 personal_style: 
 
 # 这个值取决于你得背景图片是深色还是浅色，深色用dark，浅色用light
-home_background_scheme: light # dark、light
+home_background_scheme: dark # dark、light
 
 # custom font-family 暂时只支持这3种英文字体，你可以完全自定义字体(看文档)
 blog_name_font_familiy: calligraffittiregular

@@ -1,0 +1,21 @@
+---
+title: 支付宝移动服务器签名-php
+date: 2017-08-21 20:27:36
+tags: ["php","alipay"]
+categories: "php"
+---
+
+``` php
+<?php
+	echo ini_get('display_errors');
+	require_once dirname ( __FILE__ ).'/../third_party/alipay/config.php';
+	require_once dirname ( __FILE__ ).'/../third_party/alipay/AopSdk.php';
+	if (isset($_POST['params'])) {
+		$params = json_decode($_POST['params'],true);
+		$aop = new AopClient();
+		$aop->rsaPrivateKey = $config['merchant_private_key'];
+		$signed = urlencode($aop->generateSign($params,'RSA2'));
+		echo "sign=".$signed;	
+	}
+?>
+```
