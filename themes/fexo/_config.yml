@@ -171,7 +171,11 @@ link:
 
 
 project:
+  - type: Evn
+    url: https://www.oschina.net/p/evn
+    intro: Evn是Windows|Mac环境变量工具
   - type: personal
     name: fexo
     url: https://github.com/forsigner/fexo
     intro: A minimalist design theme for hexo
+
