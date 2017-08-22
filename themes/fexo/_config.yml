@@ -19,6 +19,9 @@ home_nav:
   - name: 项目
     url: /project/
     target_blank: true #在新页面打开
+  - name: 关于
+    url: /about/
+    target_blank: true
   - name: Github
     url: https://github.com/yenole
     target_blank: true
@@ -56,7 +59,7 @@ breadcrumb:
 # 盒子
 toolbox:
   isShow: true # true|fase
-  text: 导航
+  text: toolbox
 
 search_slogan:
   isShow: true # true|fase
@@ -145,23 +148,23 @@ about:
     - "Apr，1992，Spring."
     - "喜欢设计，擅长编程，喜欢睡懒觉."
     - "软件工程师，网站 / 游戏 / 服务端."
+  - type: weibo
+    icon: icon-weibo
+    text_key: 微博
+    text_value: "@夜_乐"
+    text_value_url: http://weibo.com/u/2644349401
   - type: Github
     icon: icon-github
     text_key: Github
     text_value: "@Yenole"
     text_value_url: https://github.com/yenole
-  # - type: weibo
-  #   icon: icon-weibo
-  #   text_key: 微博
-  #   text_value: "@forsigner"
-  #   text_value_url: http://weibo.com/u/1847075964
   - type: mail
     icon: icon-mail
     text_key: Email
     text_value: "Netxy@vip.qq.com"
   - type: location
     icon: icon-location
-    text_value: 安徽
+    text_value: 安徽 - 合肥
 
 link:
   - name: Google
@@ -171,11 +174,10 @@ link:
 
 
 project:
-  - type: Evn
+  - name: Evn
     url: https://www.oschina.net/p/evn
-    intro: Evn是Windows|Mac环境变量工具
-  - type: personal
-    name: fexo
+    intro: Windows|Mac环境变量工具
+  - name: Fexo
     url: https://github.com/forsigner/fexo
     intro: A minimalist design theme for hexo
 
