@@ -1,0 +1,21 @@
+<div class="content content-project">
+  <%- partial('_partial/component/page-header', {location: __('location.gradle')}) %>
+
+  <ul class="project-list">
+    <% theme.gradle.forEach(function(item, i){ %>
+      <li class="project-item">
+
+        <i class="dot dot-<%= i % 5%> "></i>
+
+        <div class="text">
+          <span><%= item.name%></span>
+          <a class="project-url" style="float:right;" href="javascript:prompt('<%= item.name%>.zip','https://raw.githubusercontent.com/Yenole/gradle/master/<%= item.name%>.zip');" rel="noopener noreferrer" target="_blank">Github<a>
+          <a class="project-url" style="float:right;margin-right:20px;" href="javascript:prompt('<%= item.name%>.zip','http://git.oschina.net/yenole/gradle/raw/master/<%= item.name%>.zip');" rel="noopener noreferrer" target="_blank">码云<a>
+        </div>
+      </li>
+    <% }) %>
+  </ul>
+
+</div>
+
+<%- partial('_partial/component/back-top', {showBacktop: theme.backtop.project}) %>
