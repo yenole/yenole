@@ -1,0 +1,26 @@
+---
+title: Linux生成SSL证书
+date: 2017-08-24 15:36:40
+tags: ["nginx"]
+categories: "服务器"
+---
+
+## 生成*.key
+```shell
+openssl genrsa -des3 -out ssl.key 1024
+```
+
+## 去除密码
+```shell
+openssl rsa -in ssl.key -out ssl.key 
+```
+
+## *.key生成请求文件
+```shell
+openssl req -new -key ssl.key -out ssl.csr
+```
+
+## 生成crt证书
+```shell
+openssl x509 -req -days 365 -in ssl.csr -signkey ssl.key -out ssl.crt
+```
