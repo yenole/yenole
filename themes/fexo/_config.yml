@@ -19,6 +19,9 @@ home_nav:
   - name: 项目
     url: /project/
     target_blank: true #在新页面打开
+  - name: 实验
+    url: /exp/
+    target_blank: false #在新页面打开
   - name: 关于
     url: /about/
     target_blank: true
@@ -51,6 +54,9 @@ page_nav:
   #   target_blank: true # 在新页面打开
   - name: 搜索
     url: /search/
+    target_blank: false # 在新页面打开
+  - name: 实验
+    url: /exp/
     target_blank: false # 在新页面打开
 
 page_nav_style: CIRCLE  # CIRCLE|ROUND_RECT
