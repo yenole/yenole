@@ -5,7 +5,7 @@ tags: "window"
 categories: "window"
 ---
 ## Win+R运行输入regiest.ext
-## 依次进入HKEY_CLASSES_ROOT\Directory\shell
+## 依次进入“HKEY_CLASSES_ROOT\Directory\Background\shell”
 ## 显示命令提示符
  * 右键cmd权限
  * 高级
@@ -16,6 +16,7 @@ categories: "window"
  * 选中 改成“完全控制”
  * 确定
  * 重命名cmd中“HideBasedOnVelocityId”为“ShowBasedOnVelocityId”
+ 
 ## 隐藏Powershell
  * 右键Powershell权限
  * 高级
