@@ -1,7 +1,7 @@
 ---
-title: Ubuntu挂在磁盘
+title: Linux挂在磁盘
 date: 2017-08-29 13:36:43
-tags: ["ubuntu"]
+tags: ["linux"]
 categories: "服务器"
 ---
 ## 切换root，可以跳过
