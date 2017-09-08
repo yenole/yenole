@@ -2,7 +2,7 @@
 title: iOS异步处理
 date: 2017-08-21 20:49:28
 tags: ["iOS","objc","async"]
-categories: 代码收集
+categories: '代码收集'
 ---
 ``` object-c
 dispatch_async(dispatch_get_global_queue(0, 0), ^{ 

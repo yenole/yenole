@@ -2,7 +2,7 @@
 title: react-native-jsc
 date: 2017-08-22 13:25:42
 tags: ["react-native"]
-categories: "react-native"
+categories: "javascript"
 ---
 # [react-native-jsc](https://github.com/yenole/react-native-jsc)
 

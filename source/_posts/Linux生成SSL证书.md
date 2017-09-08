@@ -1,8 +1,8 @@
 ---
 title: Linux生成SSL证书
 date: 2017-08-24 15:36:40
-tags: ["nginx"]
-categories: "服务器"
+tags: ["nginx",'linux']
+categories: ["linux",'nginx']
 ---
 
 ## 生成*.key
