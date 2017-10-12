@@ -1,0 +1,25 @@
+---
+title: Electron使用阿里镜像
+date: 2017-10-12 09:43:31
+tags: ['nodejs','electron']
+categories: 'javascript'
+---
+## linux && Mac
+```
+git clone https://github.com/electron/electron-quick-start
+cd electron-quick-start
+// 设置electron镜像
+export ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
+npm install
+npm start
+```
+
+## windows
+```
+git clone https://github.com/electron/electron-quick-start
+cd electron-quick-start
+// 设置electron镜像
+set ELECTRON_MIRROR=https://npm.taobao.org/mirrors/electron/
+npm install
+npm start
+```
