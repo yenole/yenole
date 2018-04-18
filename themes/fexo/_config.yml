@@ -25,6 +25,9 @@ home_nav:
   - name: 关于
     url: /about/
     target_blank: true
+  - name: 脚本
+    url: /sh/sh.txt
+    target_blank: true
   - name: Gradle
     url: /gradle/
     target_blank: true
