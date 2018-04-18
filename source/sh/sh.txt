@@ -1,1 +1,2 @@
-curl -o- -L http://yenole.com/sh/deepin.wechat.dev.sh | sh  // 体验deepin最新的微信开发者工具
+curl -o- -L http://yenole.com/sh/deepin.wechat.dev.sh | sh  // 体验deepin最新微信开发者工具
+curl -o- -L http://yenole.com/sh/deepin.wechat.sh | sh      // 体验deepin最新微信客户端
