@@ -22,9 +22,6 @@ home_nav:
   - name: 实验
     url: /exp/
     target_blank: false #在新页面打开
-  - name: 关于
-    url: /about/
-    target_blank: true
   - name: 脚本
     url: /sh/
     target_blank: true
@@ -36,6 +33,9 @@ home_nav:
     target_blank: true
   - name: Gradle
     url: /gradle/
+    target_blank: true
+  - name: 关于
+    url: /about/
     target_blank: true
 
 # config page nav
