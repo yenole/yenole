@@ -26,13 +26,16 @@ home_nav:
     url: /about/
     target_blank: true
   - name: 脚本
-    url: /sh/sh.txt
+    url: /sh/
     target_blank: true
-  - name: Gradle
-    url: /gradle/
+  - name: 码云
+    url: https://gitee.com/yenole
     target_blank: true
   - name: Github
     url: https://github.com/yenole
+    target_blank: true
+  - name: Gradle
+    url: /gradle/
     target_blank: true
 
 # config page nav
