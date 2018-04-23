@@ -1,9 +1,9 @@
 #!/bin/sh
-dir=/opt/deepinwine/apps/Deepin-WeChatDev/
-url=https://gitee.com/yenole/deepin.apps/raw/master/deepin.com.wechat.devtools/files.7z
+dir=/opt/deepinwine/apps/Deepin-QQ/
+url=https://gitee.com/yenole/deepin.apps/raw/master/deepin.com.qq.im/files.7z
 # 判断是否安装
 if [ ! -d $dir ];then
-    echo '没有安装微信开发者工具！'
+    echo '没有安装QQ客户端！'
 fi
 
 # 获取执行sudo命令
@@ -25,7 +25,7 @@ fi
 sudo cp ./files.7z $dir/files.7z
 
 # 删除已经部署的和提示安装成功
-rm -rf ~/.deepinwine/Deepin-WeChatDev/
+rm -rf ~/.deepinwine/Deepin-QQ/
 echo '安装成功！'
 
 

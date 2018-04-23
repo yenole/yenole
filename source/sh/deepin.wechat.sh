@@ -9,7 +9,7 @@ fi
 # 获取执行sudo命令
 sudo ls >/dev/null
 
-# 下载增量files.7z
+# 下载files.7z
 if [ -d /tmp/deepin.apps/ ];then
     rm -rf /tmp/deepin.apps/*
 else
