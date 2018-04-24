@@ -17,5 +17,12 @@ layout: false
  * 版本:9.0.3
  * `curl http://yenole.com/sh/deepin.qq.sh | sh`
 
+### TIM客户端  
+ * 版本:2.1.8
+ * `curl http://yenole.com/sh/deepin.tim.sh | sh`
+
 ### QQ封包
  * `curl http://yenole.com/sh/make.deepin.qq.sh | sh`
+
+### TIM封包
+ * `curl http://yenole.com/sh/make.deepin.tim.sh | sh`
