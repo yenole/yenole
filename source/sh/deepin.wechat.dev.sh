@@ -1,6 +1,6 @@
 #!/bin/sh
 dir=/opt/deepinwine/apps/Deepin-WeChatDev/
-url=https://gitee.com/yenole/deepin.apps/raw/master/deepin.com.wechat.devtools/files.7z
+url=https://gitee.com/yenole/deepin.apps/raw/deepin.com.wechat.devtools/files.7z
 # 判断是否安装
 if [ ! -d $dir ];then
     echo '没有安装微信开发者工具！'

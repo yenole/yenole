@@ -1,6 +1,6 @@
 #!/bin/sh
 dir=/opt/deepinwine/apps/Deepin-TIM/
-url=https://gitee.com/yenole/deepin.apps/raw/master/deepin.com.qq.office/files.7z
+url=https://gitee.com/yenole/deepin.apps/raw/deepin.com.qq.office/files.7z
 # 判断是否安装
 if [ ! -d $dir ];then
     echo '没有安装TIM客户端！'
