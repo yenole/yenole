@@ -26,6 +26,7 @@ rm -rf /tmp/node-sync-ipc
 cp $dir/files.7z ./files.7z
 7z d files.7z drive_c/Program\ Files/WeChat_nwjs/package.nw/
 7z a files.7z drive_c/Program\ Files/WeChat_nwjs/package.nw/
+7z a files.7z drive_c/Program\ Files/WeChat_nwjs/node.exe
 
 # 备份和替换和删除原来的部署
 if [ ! -d $dir/files.7z.bak ];then
