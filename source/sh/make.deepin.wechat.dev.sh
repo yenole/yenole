@@ -22,7 +22,11 @@ cp -r /tmp/node-sync-ipc/node_modules/node-sync-ipc drive_c/Program\ Files/WeCha
 cp `type node | awk '{print $3}'` drive_c/Program\ Files/WeChat_nwjs/node.exe
 rm -rf /tmp/node-sync-ipc
 
-# 复制files.7z和更新TIM文件
+
+# 解决插件文件
+sed -i 's/load-extension=.\/js/load-extension=.\/package.nw\/js/g' drive_c/Program\ Files/WeChat_nwjs/package.nw/package.json
+
+# 复制files.7z和更新文件
 cp $dir/files.7z ./files.7z
 7z d files.7z drive_c/Program\ Files/WeChat_nwjs/package.nw/
 7z a files.7z drive_c/Program\ Files/WeChat_nwjs/package.nw/
