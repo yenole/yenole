@@ -8,6 +8,10 @@ fi
 # 获取执行sudo命令
 sudo ls >/dev/null
 
+# 安装新版
+wget -P ~/Downloads/ http://dldir1.qq.com/weixin/Windows/WeChatSetup.exe
+WINEPREFIX=~/.deepinwine/Deepin-WeChat/ deepin-wine ~/Downloads/WeChatSetup.exe
+
 # 复制files.7z和更新微信文件
 cd ~/.deepinwine/Deepin-WeChat/
 cp $dir/files.7z ./files.7z
