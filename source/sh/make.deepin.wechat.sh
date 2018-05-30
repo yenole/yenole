@@ -26,3 +26,4 @@ sudo cp ./files.7z $dir/files.7z
 rm -f files.7z
 
 echo '封包成功！'
+

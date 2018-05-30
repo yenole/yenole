@@ -8,6 +8,10 @@ fi
 # 获取执行sudo命令
 sudo ls >/dev/null
 
+wget -P ~/Downloads `curl -s https://im.qq.com/pcqq/ | grep exe | awk '{print $2}' | awk 'BEGIN{FS="\""}{print $2}'`
+
+WINEPREFIX=~/.deepinwine/Deepin-QQ/ deepin-wine ~/Downloads/`ls ~/Downloads | grep QQ`
+
 # 复制files.7z和更新QQ文件
 cd ~/.deepinwine/Deepin-QQ/
 cp $dir/files.7z ./files.7z
