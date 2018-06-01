@@ -25,6 +25,8 @@ rm -rf /tmp/node-sync-ipc
 
 # 解决插件文件
 sed -i 's/load-extension=.\/js/load-extension=.\/package.nw\/js/g' drive_c/Program\ Files/WeChat_nwjs/package.nw/package.json
+# 解决nw图标问题
+sed -i 's/app\/images\/logo2.png/static\/image\/logo@2x.png/g' drive_c/Program\ Files/WeChat_nwjs/package.nw/package.json
 
 # 复制files.7z和更新文件
 cp $dir/files.7z ./files.7z
