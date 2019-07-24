@@ -141,7 +141,7 @@ init_page_content: HOME_NAV  # HOME_NAV | POST
 # Stats
 google_analytics:
 baidu_analytics: 
-baidu_statistics: true
+baidu_statistics:
 
 # Comment service
 disqus_shortname: 
@@ -152,7 +152,7 @@ disqus_shortname:
 # duoshuo_shortname: forsigner
 
 # 不算子,文章访问量统计和显示
-busuanzi: true
+busuanzi:
 
 # =========================================================
 # 页面内容设置
