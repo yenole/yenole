@@ -25,7 +25,7 @@
     title = 'Tag: ' + page.tag;
   }
   %>
-  <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
+  <title><% if (title){ %><%= title %> <% } else { %><%= config.title %> <% } %> - <%= config.subtitle %></title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 

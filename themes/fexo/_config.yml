@@ -1,7 +1,7 @@
 # Blog info
 blog_name: Yenole
-slogan: free调侃
-url: http://2ustc.com
+slogan: 夜の乐
+url: https://yenole.com
 
 # Set avatar (Absolute url and relative url)
 avatar: /images/avatar.jpg
@@ -19,9 +19,9 @@ home_nav:
   - name: 项目
     url: /project/
     target_blank: true #在新页面打开
-  - name: 实验
-    url: /exp/
-    target_blank: false #在新页面打开
+  # - name: 实验
+  #   url: /exp/
+  #   target_blank: false #在新页面打开
   - name: 脚本
     url: /sh/
     target_blank: true
@@ -61,9 +61,9 @@ page_nav:
   - name: 搜索
     url: /search/
     target_blank: false # 在新页面打开
-  - name: 实验
-    url: /exp/
-    target_blank: false # 在新页面打开
+  # - name: 实验
+  #   url: /exp/
+  #   target_blank: false # 在新页面打开
 
 page_nav_style: CIRCLE  # CIRCLE|ROUND_RECT
 
@@ -162,8 +162,8 @@ about:
     icon: icon-user
     text_value:
     - "Apr，1992，Spring."
-    - "喜欢设计，擅长编程，喜欢睡懒觉."
-    - "软件工程师，网站 / 游戏 / 服务端."
+    - "爱好：编程，睡懒觉，看电视."
+    - "擅长：网站 / 游戏 / 服务端 / 区块链."
   - type: weibo
     icon: icon-weibo
     text_key: 微博
@@ -172,11 +172,10 @@ about:
   - type: Github
     icon: icon-github
     text_key: Github
-    text_value: "@Yenole"
+    text_value: "@夜の乐"
     text_value_url: https://github.com/yenole
   - type: mail
     icon: icon-mail
-    text_key: Email
     text_value: "Netxy@vip.qq.com"
   - type: location
     icon: icon-location
@@ -193,9 +192,9 @@ project:
   - name: Evn
     url: https://www.oschina.net/p/evn
     intro: Windows|Mac环境变量工具
-  - name: Fexo
-    url: https://github.com/forsigner/fexo
-    intro: A minimalist design theme for hexo
+  # - name: Fexo
+  #   url: https://github.com/forsigner/fexo
+  #   intro: A minimalist design theme for hexo
 
 gradle:
   - name: gradle-4.1-all
