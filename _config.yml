@@ -78,5 +78,5 @@ theme: fexo
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/yenole/yenole.github.io.git
+  repo: https://github.com/yenole/yenole.com.git
   branch: master

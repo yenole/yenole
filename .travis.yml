@@ -8,6 +8,7 @@ install:
 before_script:
   - cd themes/fexo
   - yarn
+  - node gulpfile.js
   - cd ../..
 
 script:
