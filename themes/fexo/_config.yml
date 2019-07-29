@@ -33,7 +33,7 @@ home_nav:
     target_blank: true
   - name: Gradle
     url: /gradle/
-    target_blank: true
+    target_blank: false
   - name: 关于
     url: /about/
     target_blank: true
