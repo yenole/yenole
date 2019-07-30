@@ -1,5 +1,5 @@
 ---
-title: About
-layout: about
-date: 2017-08-21 11:35:24
+title: about
+date: 2019-07-30 15:10:33
+type: "about"
 ---

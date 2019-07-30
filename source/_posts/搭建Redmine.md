@@ -20,6 +20,7 @@ redmine:
   volumes:
     - /home/xuchao/ymls/redmine/files:/usr/src/redmine/files
 ```
+
 ## 编辑nginx代理
 ```
 server {

@@ -6,10 +6,8 @@ install:
   - yarn  #安装hexo及插件
 
 before_script:
-  - cd themes/fexo
+  - cd themes/next
   - yarn
-  - node gulpfile.js
-  - cd ../..
 
 script:
   - hexo cl  #清除
