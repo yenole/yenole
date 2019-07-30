@@ -5,9 +5,9 @@ node_js: "lts/*"  #设置相应的版本
 install:
   - yarn  #安装hexo及插件
 
-before_script:
-  - cd themes/next
-  - yarn
+# before_script:
+  # - cd themes/next
+  # - yarn
 
 script:
   - hexo cl  #清除
