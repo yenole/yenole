@@ -93,7 +93,7 @@ scheme: Pisces
 social:
   GitHub: https://github.com/yenole
   Gitee: https://gitee.com/yenole
-  # Weibo: http://weibo.com/u/2644349401
+  Weibo: http://weibo.com/u/2644349401
   # E-Mail: mailto:Netxy@vip.qq.com
 
 # Social Links Icons
@@ -103,8 +103,8 @@ social:
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
   enable: true
-  icons_only: false
-  transition: false
+  icons_only: true
+  transition: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
@@ -192,7 +192,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
@@ -566,7 +566,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: false
