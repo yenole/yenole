@@ -1,8 +1,10 @@
 ---
 title: 封装deepin-wine应用
 date: 2018-05-23 15:54:02
-tags: deepin-wine
-categories: deepin-wine
+tags: 
+    - deepin-wine
+categories: 
+    - deepin-wine
 ---
 
 ### 原理

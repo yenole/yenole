@@ -1,8 +1,10 @@
 ---
 title: react-native-easy-loading
 date: 2017-08-22 13:22:58
-tags: ["react-native"]
-categories: "javascript"
+tags: 
+	- react-native
+categories: 
+	- javascript
 ---
 
 # [react-native-easy-loading](https://github.com/yenole/react-native-easy-loading)

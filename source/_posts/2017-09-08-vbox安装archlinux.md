@@ -1,7 +1,9 @@
 ---
 title: vbox安装archlinux
 date: 2017-09-08 10:00:45
-tags: ['linux','archlinx','vbox']
+tags: 
+    - linux
+    - vbox
 categories: "linux"
 ---
 

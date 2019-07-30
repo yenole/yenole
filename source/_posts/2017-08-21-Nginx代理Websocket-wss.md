@@ -1,8 +1,12 @@
 ---
 title: 'Nginx代理Websocket(''wss://'')'
 date: 2017-08-21 19:54:18
-tags: ["nginx","websocket"]
-categories: ['linux','nginx']
+tags: 
+    - nginx
+    - websocket
+categories: 
+    - linux
+    - nginx
 ---
 
 ``` conf
